@@ -1,7 +1,7 @@
 lookfor
 =======
 
-Search magic extension for IPython
+Search magic extension for IPython interpreter
 
 An example:
 ```
