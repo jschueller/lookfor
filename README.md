@@ -1,9 +1,9 @@
 lookfor
 =======
 
-Search magic extension for IPython
+Search magic extension for IPython interpreter
 
-An example:
+Usage:
 ```
 %load_ext lookfor
 %lookfor transpose scipy
@@ -27,4 +27,3 @@ scipy.loadtxt
 scipy.matrix.getT
     Returns the transpose of the matrix.
 ```
-
