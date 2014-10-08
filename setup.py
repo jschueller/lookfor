@@ -17,7 +17,7 @@ setup(
     version='0.0.1',
 
     description='Search magic extension for IPython',
-    #long_description=long_description,
+    long_description='An extension for IPython that allows to search through docstrings',
 
     # The project's main homepage.
     url='https://github.com/jschueller/lookfor',
@@ -31,29 +31,15 @@ setup(
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
-        # How mature is this project? Common values are
-        #   3 - Alpha
-        #   4 - Beta
-        #   5 - Production/Stable
         'Development Status :: 3 - Alpha',
-
-        # Indicate who your project is intended for
-        'Intended Audience :: Developers',
-        'Topic :: Software Development :: Build Tools',
-
-        # Pick your license as you wish (should match "license" above)
+        'Environment :: Web Environment',
+        'Framework :: IPython',
+        'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',
-
-        # Specify the Python versions you support here. In particular, ensure
-        # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-    ],
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        ],
 
     # What does your project relate to?
     keywords='search ipython',
