@@ -218,7 +218,12 @@ class LookforMagics(Magics):
         if module is None:
             module = 'numpy'
 
-        if isinstance(module, basestring):
+        try:
+            typ_str = basestring
+        except NameError:
+            typ_str = str
+
+        if isinstance(module, typ_str):
             module = __import__(module)
 
         if id(module) in _lookfor_caches and not regenerate:
