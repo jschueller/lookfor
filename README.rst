@@ -17,7 +17,7 @@ https://github.com/ipython/ipython/blob/0.13.x/IPython/quarantine/ipy_lookfor.py
 Install
 -------
 
-You can install or upgrade via pip
+You can install or upgrade via pip::
 
     $ pip install -U lookfor
 
@@ -26,6 +26,7 @@ or directly from the repository using the `%install_ext` magic command::
 .. code-block:: python
 
     %install_ext https://raw.github.com/jschueller/lookfor/master/lookformagic.py
+
 
 Usage
 -----
