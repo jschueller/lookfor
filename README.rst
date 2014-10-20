@@ -15,7 +15,7 @@ Updated for IPython 1.0 from the original lookfor magic from 0.13.X branch:
 https://github.com/ipython/ipython/blob/0.13.x/IPython/quarantine/ipy_lookfor.py
 
 Install
-=======
+-------
 
 You can install or upgrade via pip
 
@@ -26,7 +26,7 @@ or directly from the repository using the `%install_ext` magic command::
     In[1]: %install_ext https://raw.github.com/jschueller/lookfor/master/lookformagic.py
 
 Usage
-=====
+-----
 
     %load_ext lookfor
     %lookfor transpose scipy
