@@ -19,14 +19,18 @@ Install
 
 You can install or upgrade via pip
 
-    pip install -U lookfor
+    $ pip install -U lookfor
 
 or directly from the repository using the `%install_ext` magic command::
 
-    In[1]: %install_ext https://raw.github.com/jschueller/lookfor/master/lookformagic.py
+.. code-block:: python
+
+    %install_ext https://raw.github.com/jschueller/lookfor/master/lookformagic.py
 
 Usage
 -----
+
+.. code-block:: python
 
     %load_ext lookfor
     %lookfor transpose scipy
