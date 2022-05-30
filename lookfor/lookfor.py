@@ -3,7 +3,6 @@
 %lookfor command for searching docstrings.
 
 """
-from __future__ import print_function
 #-----------------------------------------------------------------------------
 #  Copyright (c) 2012, The IPython Development Team.
 #
@@ -23,8 +22,6 @@ import re, os, sys, inspect, pkgutil, pydoc, textwrap
 from IPython.core.error import UsageError
 from IPython.core.magic import Magics, magics_class, line_magic
 from IPython.testing.skipdoctest import skip_doctest
-from IPython.utils.traitlets import Bool
-from IPython.utils.py3compat import string_types
 
 #------------------------------------------------------------------------------
 # Lookfor functionality

@@ -2,15 +2,12 @@
 lookfor
 =======
 
-.. image:: https://travis-ci.org/jschueller/lookfor.png?branch=master
-        :target: https://travis-ci.org/jschueller/lookfor
-
-.. image:: https://pypip.in/d/lookfor/badge.png
-        :target: https://crate.io/packages/lookfor?version=latest
+.. image:: https://badge.fury.io/py/lookfor.svg
+        :target: https://badge.fury.io/py/lookfor
 
 Search magic extension for IPython interpreter
 
-Updated for IPython 1.0 from the original lookfor magic from 0.13.X branch:
+Updated from the original lookfor magic from 0.13.X branch:
 
 https://github.com/ipython/ipython/blob/0.13.x/IPython/quarantine/ipy_lookfor.py
 
